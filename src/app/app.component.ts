@@ -1,7 +1,7 @@
 import { Component, signal, inject, computed } from '@angular/core';
 import { OnInit } from '@angular/core';
-import { JobListComponent } from './job-list/job-list.component';
-import { JobDetails } from '../model/jobdetails.model';
+import { JobListComponent } from './component/job-list/job-list.component';
+import { JobDetails } from './model/jobdetails.model';
 
 @Component({
   selector: 'app-root',

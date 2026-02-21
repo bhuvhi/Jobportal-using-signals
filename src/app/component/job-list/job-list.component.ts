@@ -1,7 +1,7 @@
 import { Component, effect, inject, input, OnInit, signal, Signal } from '@angular/core';
-import { JobsServiceService } from '../jobs-service.service';
+import { JobsServiceService } from '../../service/jobs/jobs-service.service';
 import { JobDetails } from '../../model/jobdetails.model';
-import { JobDetailsComponent } from '../../jobdetails/jobdetails.component';
+import { JobDetailsComponent } from '../jobdetails/jobdetails.component';
 
 @Component({
   selector: 'app-job-list',

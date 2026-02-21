@@ -1,5 +1,5 @@
 import { Component, input, Input } from "@angular/core";
-import { JobDetails } from "../model/jobdetails.model";
+import { JobDetails } from "../../model/jobdetails.model";
 import { DatePipe, CommonModule } from "@angular/common";
 
 @Component({
