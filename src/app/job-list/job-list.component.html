@@ -1,0 +1,8 @@
+<div>
+  @for(job of jobs();track job.id){
+    <app-job-card [jobDetails]="job"></app-job-card>
+  }
+  @empty {
+    Jobs yet to be posted
+  }
+</div>

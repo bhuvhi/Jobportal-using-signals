@@ -1,0 +1,8 @@
+<div>
+    <h4>{{jobDetails()?.title}}</h4>
+    <div>Posted By: {{jobDetails()?.by}} </div>
+    <div>On: {{jobDetails()?.time| date }}</div>
+    @if(jobDetails()?.url){
+        <a href="{{jobDetails()?.url}}" target="_blank">{{jobDetails()?.url}}</a>
+    }
+</div>
